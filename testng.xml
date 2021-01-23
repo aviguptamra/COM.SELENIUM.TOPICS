@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Loan">
+  
+  
+  <test name="PersonalLoan">
+  
+    <classes>
+     
+     <class name="COM.SELENIUM.TOPICS._36_TestNGPriorty">
+     
+     <methods>
+     
+     <exclude name="TestCase_2">
+     
+     
+     
+     </exclude>
+     
+     
+     </methods>
+     
+     
+     </class>
+     
+     </classes>
+     
+     </test>
+     
+     <test name="HomeLoan">
+  
+    <classes>
+     
+     <class name="COM.SELENIUM.TOPICS._23_SoftAssert">
+     
+     
+     </class>
+     
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  
+  <test name="CarlLoan">
+  
+    <classes>
+     
+     <class name="COM.SELENIUM.TOPICS._36_TestNGPriorty">
+     
+     <methods>
+     
+     <exclude name="Case.*">
+   //This is regular expression to do not run the test cases which test case start same name 2 Test cases start with Case then Case.* in exclude tag inside the testng.xml
+     
+     
+     
+     </exclude>
+     
+     
+     </methods>
+     
+     
+     </class>
+     
+     </classes>
+     
+     </test>
+  
+  
+</suite> <!-- Suite -->
