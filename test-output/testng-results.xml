@@ -2,12 +2,12 @@
 <testng-results retried="1" ignored="0" total="2" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-01-23T15:32:32 IST" name="Loan" finished-at="2021-01-23T15:32:49 IST" duration-ms="16447">
+  <suite started-at="2021-01-27T20:53:25 IST" name="Loan" finished-at="2021-01-27T20:54:32 IST" duration-ms="67100">
     <groups>
     </groups>
-    <test started-at="2021-01-23T15:32:32 IST" name="PersonalLoan" finished-at="2021-01-23T15:32:49 IST" duration-ms="16447">
+    <test started-at="2021-01-27T20:53:25 IST" name="PersonalLoan" finished-at="2021-01-27T20:54:32 IST" duration-ms="67100">
       <class name="COM.SELENIUM.TOPICS._22_HardAssert">
-        <test-method retried="true" signature="HardAssert()[pri:0, instance:COM.SELENIUM.TOPICS._22_HardAssert@60410cd]" started-at="2021-01-23T15:32:32 IST" name="HardAssert" finished-at="2021-01-23T15:32:41 IST" duration-ms="8316" status="SKIP">
+        <test-method retried="true" signature="HardAssert()[pri:0, instance:COM.SELENIUM.TOPICS._22_HardAssert@60410cd]" started-at="2021-01-27T20:53:25 IST" name="HardAssert" finished-at="2021-01-27T20:54:24 IST" duration-ms="58814" status="SKIP">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [Ho] but found [Home]]]>
@@ -55,7 +55,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- HardAssert -->
-        <test-method signature="HardAssert()[pri:0, instance:COM.SELENIUM.TOPICS._22_HardAssert@60410cd]" started-at="2021-01-23T15:32:41 IST" name="HardAssert" finished-at="2021-01-23T15:32:48 IST" duration-ms="7687" status="FAIL">
+        <test-method signature="HardAssert()[pri:0, instance:COM.SELENIUM.TOPICS._22_HardAssert@60410cd]" started-at="2021-01-27T20:54:24 IST" name="HardAssert" finished-at="2021-01-27T20:54:31 IST" duration-ms="7769" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [Ho] but found [Home]]]>
