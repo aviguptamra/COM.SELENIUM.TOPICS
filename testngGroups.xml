@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Loan">
+  
+  
+  <test name="PersonalLoan">
+  
+  <groups>		
+   <run>		
+    <include name="Smoke" />		
+   </run>		
+  </groups>
+  
+    <classes>
+     
+     <class name="COM.SELENIUM.TOPICS._52_TestNGGroups">
+     
+     </class>
+     
+     </classes>
+   </test>
+</suite> <!-- Suite -->

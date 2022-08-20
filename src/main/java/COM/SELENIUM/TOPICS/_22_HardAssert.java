@@ -15,7 +15,7 @@ import org.testng.annotations.Test;
 public class _22_HardAssert {
 	
 	
-	static WebDriver driver;
+	public static WebDriver driver;
 	
 	@Test(retryAnalyzer = _44_RetryAnalyzer.class)
 	public void HardAssert()

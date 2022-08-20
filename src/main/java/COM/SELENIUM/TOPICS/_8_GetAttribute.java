@@ -19,14 +19,14 @@ public class _8_GetAttribute {
   
   {
 	  
-	  File GoogleChromeDriver=new File("D:\\Automation\\chromedriver_win32(87)\\chromedriver.exe");
+	  File GoogleChromeDriver=new File("D:\\\\Automation\\\\Selenium\\\\chromedriver_win32(87)\\\\chromedriver.exe");
 		
 		System.setProperty("webdriver.chrome.driver", GoogleChromeDriver.getAbsolutePath());		
 		driver=new ChromeDriver();		
 		driver.manage().window().maximize();
 		driver.get("https://www.google.com");
 		
-	    WebElement WebElement=driver.findElement(By.xpath("//span[text()='India']"));
+	    WebElement WebElement=driver.findElement(By.xpath("//div[text()='India']"));
 	    
 	    String Get_WebElement_Attribute_For_InnerText=WebElement.getAttribute("innerText");
 	    /*GetAttribute method is used to extract the attribute i.e class, id, name innerText and etc. from <tag> and getAttribute method 
@@ -34,7 +34,7 @@ public class _8_GetAttribute {
 	    */
 	    System.out.println("Get_WebElement_Attribute_For_InnerText : "+Get_WebElement_Attribute_For_InnerText);
 	    
-	    String Get_WebElement_Attribute_For_Class=WebElement.getAttribute("classs");
+	    String Get_WebElement_Attribute_For_Class=WebElement.getAttribute("tagName");
 	    System.out.println("Get_WebElement_Attribute_For_Class : "+Get_WebElement_Attribute_For_Class);
 	    
 	   

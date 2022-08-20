@@ -11,28 +11,28 @@ import org.testng.ITestResult;
 
 public class _42_CustomListener extends _22_HardAssert implements ITestListener {
 	
-	
+	@Override
 	public void onTestFailure(ITestResult result) {  
 
 		
-		try {
-			ScreenShot(result.getMethod().getMethodName());
-		} catch (IOException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
+		ScreenShot(result.getMethod().getMethodName());
 		
 		
 	}
 		   
 		   
-		   public   void  ScreenShot(String ScreenCast) throws IOException
+		   public   void  ScreenShot(String ScreenCast) 
 			
 			{
 
 			    TakesScreenshot ts= (TakesScreenshot)driver;
 				File file=ts.getScreenshotAs(OutputType.FILE);
-			    FileUtils.copyFile(file, new File("./FailureScreenshot/"+ScreenCast+".png"));
+			    try {
+					FileUtils.copyFile(file, new File("./FailureScreenshot/"+ScreenCast+".png"));
+				} catch (IOException e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				}
 				
 				
 				

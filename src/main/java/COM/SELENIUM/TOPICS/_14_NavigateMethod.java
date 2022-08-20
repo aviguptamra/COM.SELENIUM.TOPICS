@@ -41,6 +41,11 @@ public class _14_NavigateMethod {
 		 
 		 */
 		
+		driver.navigate().to("https://www.google.com");
+		
+		//driver.get("") Vs driver.navigate()to().("");
+		//this method wait until page is fully loaded and this method wont wait.
+		
 	
   }
   

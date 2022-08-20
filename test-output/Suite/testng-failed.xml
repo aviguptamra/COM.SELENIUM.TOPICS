@@ -1,16 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="Test(failed)">
-    <parameter name="password" value="cspl"/>
-    <parameter name="username1" value="avi"/>
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)" parallel="methods">
     <classes>
-      <class name="COM.SELENIUM.TOPICS._41_TestNGParameter">
+      <class name="COM.SELENIUM.TOPICS._23_SoftAssert">
         <methods>
           <include name="TestCase_1"/>
-          <include name="browser"/>
+          <include name="TestCase_2"/>
         </methods>
-      </class> <!-- COM.SELENIUM.TOPICS._41_TestNGParameter -->
+      </class> <!-- COM.SELENIUM.TOPICS._23_SoftAssert -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

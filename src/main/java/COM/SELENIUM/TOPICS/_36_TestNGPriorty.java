@@ -10,7 +10,7 @@ public class _36_TestNGPriorty {
 	
 	WebDriver driver;
 	
-	@Test(priority = 1)
+	@Test(priority = 1,groups = "Smoke")
 	public void TestCase_1()
 	
 	{

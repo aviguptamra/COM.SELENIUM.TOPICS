@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<suite name="suite">
+
+<test name="test">
+
+<listeners>
+
+<listener class-name ="COM.SELENIUM.TOPICS.transformer">
+
+
+</listener>
+
+
+</listeners>
+
+<classes>
+
+<class name="COM.SELENIUM.TOPICS.Practice">
+
+
+</class>
+
+</classes>
+
+</test>
+
+</suite>

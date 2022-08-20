@@ -35,10 +35,20 @@ public class _24_LinksCount {
 		System.out.println(LinksCountsSize);
 		
 		for(WebElement web:FullPageLinksCount)
-
+ 
 		{
 			String LinkCounts_Text=web.getText();
 			System.out.println(LinkCounts_Text);
+			
+		}
+		
+		for(int i=0;i<FullPageLinksCount.size();i++)
+		
+		{
+			
+			WebElement Element=FullPageLinksCount.get(i);
+                 String Text=Element.getText();
+                 System.out.println("Link is : " + Text);
 			
 		}
 		

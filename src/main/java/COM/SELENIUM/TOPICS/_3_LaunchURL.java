@@ -18,12 +18,12 @@ public class _3_LaunchURL {
   
   {
 	  
-	  File GoogleChromeDriver=new File("D:\\Automation\\chromedriver_win32(87)\\chromedriver.exe");
+	  File GoogleChromeDriver=new File("D:\\Automation\\Selenium\\chromedriver_win32(87)\\chromedriver.exe");
 		
 		System.setProperty("webdriver.chrome.driver", GoogleChromeDriver.getAbsolutePath());		
 		driver=new ChromeDriver();
 		
-		driver.get("https://www.google.com");
+		driver.get("htt://www.google.com");
 		//To Launch or Redirect the URL and get("URL") method is the Abstract method and pass one param, which is extended by webdriver interface and returns nothing.  
 		
 	  

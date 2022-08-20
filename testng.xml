@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Loan">
+<suite name="Loan" parallel="methods">
   
   
   <test name="PersonalLoan">
   
     <classes>
      
-     <class name="COM.SELENIUM.TOPICS._36_TestNGPriorty">
+     <class name="COM.SELENIUM.TOPICS._23_SoftAssert">
+     
+     
      
      <methods>
      
@@ -19,6 +21,8 @@
      
      
      </methods>
+     
+     
      
      
      </class>

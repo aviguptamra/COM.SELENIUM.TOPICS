@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Regression">
+
+<test name="Smoke">
+
+
+<listeners>
+
+<listener class-name="COM.SELENIUM.TOPICS._42_CustomListener">
+
+
+</listener>
+
+</listeners>
+
+
+<classes>
+
+<class name="COM.SELENIUM.TOPICS._22_HardAssert">
+
+</class>
+
+</classes>
+
+
+</test>
+
+</suite>
+

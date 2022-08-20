@@ -32,7 +32,7 @@ public class _20_RobotClass {
 		driver=new ChromeDriver();		
 		driver.manage().window().maximize();
 		driver.get("https://www.monsterindia.com/seeker/registration?");
-		
+		 
 		
 		    StringSelection ss=new StringSelection("C:\\Users\\Avi Gupta\\Desktop\\Capture.PNG");
 		    //Created Stringselection class object and pass 1 param as a file name

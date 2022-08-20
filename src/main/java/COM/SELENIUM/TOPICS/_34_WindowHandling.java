@@ -20,7 +20,7 @@ public class _34_WindowHandling {
 	
 	{
 
-		File GoogleChromeDriver=new File("D:\\Automation\\chromedriver_win32(87)\\chromedriver.exe");
+		File GoogleChromeDriver=new File("D:\\\\Automation\\\\Selenium\\\\chromedriver_win32(87)\\\\chromedriver.exe");
 		System.setProperty("webdriver.chrome.driver", GoogleChromeDriver.getAbsolutePath());
 		driver=new ChromeDriver();		
 		driver.manage().window().maximize();
@@ -37,7 +37,7 @@ public class _34_WindowHandling {
 		int TotalWindowSize=ChildWindow.size();
 		System.out.println(TotalWindowSize);
 		
-		for(String str:ChildWindow)
+		for(String str:ChildWindow) 
 		{
 			if(!ParentWindow.equalsIgnoreCase(str))
 			{
@@ -47,10 +47,11 @@ public class _34_WindowHandling {
 				
 			}
 			
-			 driver.switchTo().window(ParentWindow);
+			
 			
 		}
 		
+		 driver.switchTo().window(ParentWindow);
 		String ParenWindowTitle=driver.getTitle();
 		System.out.println(ParenWindowTitle);
 		

@@ -33,7 +33,7 @@ public class _41_TestNGParameter {
 			
 	}
 	
-	
+	 
 	@Test
 	@Parameters({"username","password"})
 	public void TestCase_1(String UserName,String Password)

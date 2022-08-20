@@ -23,7 +23,7 @@ public class _37_TestNGAnnotationSequence {
 	
 	{
        
-		System.out.println("BeforeSuite");
+		System.out.println("The @BeforeSuite annotated method will run before the execution of all the test methods in the suite.");
 		
 	}
 	
@@ -32,7 +32,7 @@ public class _37_TestNGAnnotationSequence {
 	
 	{
        
-		System.out.println("BeforeTest");
+		System.out.println("The @BeforeTest annotated method will be executed before the execution of all the test methods of available classes belonging to that folder.");
 		
 	}
 	
@@ -42,9 +42,10 @@ public class _37_TestNGAnnotationSequence {
 	
 	{
        
-		System.out.println("BeforeClass");
+		System.out.println("The @BeforeClass annotated method will be executed before the first method of the current class is invoked.");
 		
 	}
+	
 	
 
 	
@@ -53,7 +54,7 @@ public class _37_TestNGAnnotationSequence {
 	
 	{
        
-		System.out.println("BeforeMethod");
+		System.out.println("The @BeforeMethod annotated method will be executed before each test method will run.");
 		
 	}
 	
@@ -81,7 +82,7 @@ public class _37_TestNGAnnotationSequence {
 	
 	{
        
-		System.out.println("AfterMethod");
+		System.out.println("The @AfterMethod annotated method will run after the execution of each test method.");
 		
 	}
 	
@@ -90,7 +91,7 @@ public class _37_TestNGAnnotationSequence {
 	
 	{
        
-		System.out.println("AfterClass");
+		System.out.println("The @AfterClass annotated method will be invoked after the execution of all the test methods of the current class.");
 		
 	}
 	
@@ -99,7 +100,7 @@ public class _37_TestNGAnnotationSequence {
 	
 	{
        
-		System.out.println("AfterTest");
+		System.out.println("The @AfterTest annotated method will be executed after the execution of all the test methods of available classes belonging to that folder.");
 		
 	}
 	
@@ -110,7 +111,7 @@ public class _37_TestNGAnnotationSequence {
 	
 	{
        
-		System.out.println("AfterSuite");
+		System.out.println("The @AfterSuite annotated method will run after the execution of all the test methods in the suite.");
 		
 	}
 	

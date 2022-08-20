@@ -28,7 +28,10 @@ public class _10_GetCurrentURL {
 		String GetCurrentURL=driver.getCurrentUrl();
 		//GetCuurentURL is used to get the current URL of the page or where you landed on browser and getcurrentURL is the abstract method and extended by webdriver interface.
 		System.out.println("GetCurrentURL is : " +GetCurrentURL);
+		
+		
   }
   
   
 }
+ 

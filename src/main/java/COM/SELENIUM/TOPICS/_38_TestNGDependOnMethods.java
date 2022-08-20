@@ -29,7 +29,7 @@ public class _38_TestNGDependOnMethods {
 		
 	}
 	
-	@Test(dependsOnMethods = "TestCase_2")
+	@Test(dependsOnMethods = "TestCase_1")
 	public void TestCase_3()
 	
 	{

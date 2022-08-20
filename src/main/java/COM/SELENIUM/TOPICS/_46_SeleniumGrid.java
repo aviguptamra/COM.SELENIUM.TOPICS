@@ -30,7 +30,7 @@ public class _46_SeleniumGrid {
 		DesiredCapabilities dc=new DesiredCapabilities();
 		dc.setBrowserName("chrome");
 		dc.setPlatform(Platform.WINDOWS);
-		WebDriver driver=new RemoteWebDriver(new URL("http://192.168.0.109:4444/wd/hub"), dc);
+		 driver=new RemoteWebDriver(new URL("http://192.168.0.109:4444/wd/hub"), dc);
 		driver.get("https://www.google.com");
 		
 	}

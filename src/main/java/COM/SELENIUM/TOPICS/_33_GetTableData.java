@@ -33,9 +33,10 @@ public class _33_GetTableData {
 		 int FullList_SizeList=FullList.size();
          System.out.println(FullList_SizeList);
          
+         
          for(WebElement web:FullList)
         	 
-         {
+         { 
         	 String ListAllValue=web.getText();
         	 System.out.println(ListAllValue);
          }
